@@ -1,4 +1,4 @@
 #!/bin/bash -x
 
-randNum=$((RANDOM%5+1))
+randNum=$((RANDOM%6+1))
 
