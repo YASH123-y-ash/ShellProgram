@@ -5,7 +5,7 @@ n3=$((RANDOM%100+100))
 n4=$((RANDOM%100+100))
 n5=$((RANDOM%100+100))
 if [ $n1 -gt $n2 ] && [ $n1 -gt $n3 ] && [ $n1 -gt $n4 ] && [ $n1 -gt $n5 ]
-then 
+then
 echo "$n1 is greatest"
 elif [ $n2 -gt $n3 ] && [ $n2 -gt $n4 ] && [ $n2 -gt $n5 ]
 then
@@ -34,4 +34,3 @@ echo "$n4 is smallest"
 else
 echo "$n5 is smallest"
 fi
-

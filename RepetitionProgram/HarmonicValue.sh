@@ -1,10 +1,12 @@
-#!/bin/bash -x
-read n
-sum=0
-for ((i=1 ; i<=n ; i++))
+#! /bin/bash
+
+read -p 'enter number ' num
+for (( count = 1 ; count<=$num ; count++ ))
 do
-sum=$((1/$i))
+if [ $count -eq $num ];
+then
+   printf '1/'$count;
+else
+   printf '1/'$count' + ';
+fi
 done
-echo $sum
-
-
